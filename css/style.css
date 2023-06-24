@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+}
+
+.custom-border { 
+    border: solid #9AC5F4;
+} 
+
+.pro {
+    color: #A7ECEE;
+}
+
+.title, .skills, .past-works, .contact-me, .top-bar {
+    background-color: #9AC5F4;
+    border-top: 2px solid #FFEEBB;
+    border-bottom: 2px solid #FFEEBB;
+}
+
+.about, .past-works, .footer {
+    background-color: #99DBF5;
+    border-top: 2px solid #FFEEBB;
+    border-bottom: 2px solid #FFEEBB;
+}
+
+li.nav-item {
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #A7ECEE;
+    border-top: none;
+}
+
+.top-bar li {
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+}
+
+.skills h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .whatido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    max-width: fit-content;
+    line-height: 2;
+}
+
+.skills .whatido h4 {
+    text-align: center;
+}
+
+.skills .whatido li {
+    font-family: 'Outfit', sans-serif;
+    font-size: x-large;
+}
+
+.past-works .works {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.past-works img {
+    border: #FFEEBB dotted 1rem;
+    padding: 1rem;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me p {
+    font-size: x-large;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me .contact-right {
+    order: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-left {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-right {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-me p {
+    font-size: x-large;
+}
+
+.contact-me ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    max-width: fit-content;
+    line-height: 2;
+    text-align: left;
+}
+
+.footer {
+    border-bottom: none;
+}
+
+.display-7 {
+    font-size: x-large;
+}
